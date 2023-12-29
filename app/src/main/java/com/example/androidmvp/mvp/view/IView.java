@@ -3,6 +3,9 @@ package com.example.androidmvp.mvp.view;
 import com.example.androidmvp.base.IBaseView;
 import com.example.androidmvp.mvp.presenter.IPresenter;
 
+/**
+ * 视图接口 负责视图逻辑
+ */
 public interface IView extends IBaseView {
 
     default void setPresenter(IPresenter presenter) {} // 持有 Presenter

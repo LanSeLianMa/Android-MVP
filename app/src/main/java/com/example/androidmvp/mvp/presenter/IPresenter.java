@@ -4,6 +4,9 @@ import com.example.androidmvp.base.IBasePresenter;
 import com.example.androidmvp.mvp.model.IModel;
 import com.example.androidmvp.mvp.view.IView;
 
+/**
+ * 代理接口 负责业务逻辑
+ */
 public interface IPresenter extends IBasePresenter {
 
     void setView(IView view);  // 持有 View

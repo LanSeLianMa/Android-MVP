@@ -18,6 +18,9 @@ import com.example.androidmvp.mvp.presenter.IPresenter;
 import com.example.androidmvp.mvp.presenter.IPresenterImp;
 import com.example.androidmvp.mvp.view.IView;
 
+/**
+ * 视图逻辑 具体实现
+ */
 public class MVPActivity extends AppCompatActivity implements IView, View.OnClickListener {
 
     private ActivityMvpBinding binding;

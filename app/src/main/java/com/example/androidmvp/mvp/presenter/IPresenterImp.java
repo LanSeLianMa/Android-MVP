@@ -3,6 +3,9 @@ package com.example.androidmvp.mvp.presenter;
 import com.example.androidmvp.mvp.model.IModel;
 import com.example.androidmvp.mvp.view.IView;
 
+/**
+ * 具体业务逻辑实现
+ */
 public class IPresenterImp implements IPresenter {
 
     private IView view;
